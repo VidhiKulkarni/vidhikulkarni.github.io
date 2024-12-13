@@ -17,11 +17,11 @@ body {
 .sidebar {
     width: 20%;
     padding: 2rem;
-    background-color: #f4f4f4;
+    background-color: #fff;
     position: fixed;
     height: 100%;
     text-align: left;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #fff;
 }
 
 .sidebar h1 {
