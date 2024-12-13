@@ -3,62 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Your Name | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <h1>Your Name</h1>
-            <p><a href="mailto:vkularni65@gatech.edu">vkularni65@gatech.edu</a></p>
-            <p><a href="https://github.com">GitHub</a></p>
-            <p><a href="https://linkedin.com">LinkedIn</a></p>
-            <p><a href="#">Projects</a> | <a href="#">Publications</a></p>
-        </div>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h1>Your Name</h1>
+        <p><a href="mailto:vkulkarni65@gatech.edu">vkulkarni65@gatech.edu</a></p>
+        <p><a href="https://github.com/VidhiKulkarni" target="_blank">GitHub</a></p>
+        <p><a href="https://www.linkedin.com/in/vidhi-kulkarni/" target="_blank">LinkedIn</a></p>
 
-        <!-- Main Content -->
-        <div class="main-content">
-            <!-- Introduction -->
-            <section class="intro">
-                <p>Hi, I am <strong>Your Name</strong>, a CS student at Georgia Tech passionate about 
-                <strong>machine learning</strong>, AR/VR, and building impactful tools to solve real-world problems.</p>
-            </section>
-            <hr>
-
-            <!-- Education -->
-            <section class="education">
-                <h2>Education</h2>
-                <div class="item">
-                    <h3>Georgia Institute of Technology, Atlanta, GA</h3>
-                    <p><em>B.S. in Computer Science</em> | Aug. 2020 - Present</p>
-                </div>
-            </section>
-            <hr>
-
-            <!-- Work Experience -->
-            <section class="work">
-                <h2>Work Experience</h2>
-                <div class="item">
-                    <h3>NASA GeneLab</h3>
-                    <p><em>Research Intern</em> | Summer 2022</p>
-                </div>
-                <div class="item">
-                    <h3>Amazon (Incoming Software Engineer Intern)</h3>
-                    <p>May 2024 - Aug. 2024</p>
-                </div>
-            </section>
-            <hr>
-
-            <!-- Projects -->
-            <section class="projects">
-                <h2>Projects</h2>
-                <div class="item">
-                    <h3>EyeReplace</h3>
-                    <p>Developed a real-time AR tool for vision correction using OpenCV and Unity.</p>
-                </div>
-            </section>
-        </div>
+        <nav>
+            <a href="#">Information</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#publications">Publications</a>
+        </nav>
     </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Header Section -->
+        <section class="header">
+            <img src="assets/profile.jpg" alt="Your Photo" class="profile-pic">
+            <p>Hi, I am <strong>Your Name</strong>, a CS student at Georgia Tech passionate about <strong>machine learning</strong>, AR/VR, and building impactful tools. I strive to combine creativity and technology for real-world solutions.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            <div class="entry">
+                <h3>Georgia Institute of Technology, Atlanta, GA</h3>
+                <p><em>B.S. in Computer Science</em> | Aug. 2020 - Present</p>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section>
+            <h2>Work Experience</h2>
+            <div class="entry">
+                <h3>None</h3>
+                <p><em>None</em> | May 2024 - Aug. 2024</p>
+            </div>
+            <div class="entry">
+                <h3>NASA GeneLab</h3>
+                <p><em>Research Intern</em> | Summer 2022</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="entry">
+                <h3>EyeReplace</h3>
+                <p>A Chrome extension using real-time eye-tracking technology to assist users with accessibility needs.</p>
+            </div>
+            <div class="entry">
+                <h3>ARCollab</h3>
+                <p>Developed in Swift with ARKit, enabling real-time collaboration in augmented reality environments.</p>
+            </div>
+            <div class="entry">
+                <h3>Nailbot AR Integration</h3>
+                <p>Integrated AR with a smart nail art robot, allowing users to preview 3D nail designs in real-time.</p>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2>Publications</h2>
+            <div class="entry">
+                <h3>Title of Research Paper</h3>
+                <p><strong>Conference Name</strong> | Year Published</p>
+                <p>Brief description of the paper, findings, or contributions. <a href="link-to-paper" target="_blank">Read More</a></p>
+            </div>
+            <div class="entry">
+                <h3>Title of Second Paper</h3>
+                <p><strong>Journal Name</strong> | Year Published</p>
+                <p>Brief overview of the research focus or outcomes. <a href="link-to-paper" target="_blank">Read More</a></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Your Name</p>
+    </footer>
 </body>
 </html>
