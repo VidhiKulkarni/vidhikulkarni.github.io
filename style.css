@@ -65,7 +65,7 @@ h2 {
     margin-bottom: 1rem;
     border-bottom: 1px solid #444;;
     padding-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .entry {
@@ -73,7 +73,7 @@ h2 {
 }
 
 .entry h3 {
-    font-size: 1.2rem;
+    font-size: 1 rem;
     margin-bottom: 0.3rem;
 }
 
@@ -107,4 +107,5 @@ h2 {
     object-fit: cover; /* Ensures the aspect ratio remains intact */
     border-radius: 50%; /* Makes the picture circular */
     margin-bottom: 20px;
+    margin-right: 20px;
 }
