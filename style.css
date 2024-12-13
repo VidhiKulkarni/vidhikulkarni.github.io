@@ -22,22 +22,22 @@ body {
     height: 100%;
     text-align: left;
     border-right: 1px solid #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .sidebar h1 {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .sidebar a {
     color: #333 !important;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     }
 
 .sidebar nav {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .sidebar nav a {
@@ -71,12 +71,17 @@ h2 {
 }
 
 .entry {
-    margin-bottom: 1rem;
+    display: flex;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
 }
 
 .entry h3 {
-    font-size: 1rem;
-    margin-bottom: 0.3rem;
+    display: flex;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
 }
 
 .entry p {
