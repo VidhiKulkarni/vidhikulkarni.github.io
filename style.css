@@ -30,7 +30,7 @@ body {
 }
 
 .sidebar a {
-    color: #0077cc;
+    color: #333;
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body {
 /* Sections */
 h2 {
     margin-bottom: 1rem;
-    border-bottom: 1px solid #444;;
+    border-bottom: 1px solid #333;
     padding-bottom: 0.5rem;
     font-size: 1rem;
 }
@@ -83,21 +83,12 @@ h2 {
 }
 
 .entry a {
-    color: #0077cc;
+    color: #333;
     text-decoration: none;
 }
 
 .entry a:hover {
     text-decoration: underline;
-}
-
-/* Footer - Bottom Left */
-.footer {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-    font-size: 0.8rem;
-    color: #777;
 }
 
 /* Profile Picture Styling */
