@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    position: fixed;
+    height: 100%;
+    text-align: left;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h1 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.sidebar a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.sidebar nav {
+    margin-top: 1rem;
+}
+
+.sidebar nav a {
+    display: inline-block;
+    margin: 0.5rem 0;
+}
+
+/* Content Area */
+.content {
+    margin-left: 20%;
+    padding: 2rem;
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+
+.header p {
+    font-size: 1rem;
+}
+
+/* Sections */
+h2 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #444;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.entry {
+    margin-bottom: 1.5rem;
+}
+
+.entry h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.entry p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.entry a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.entry a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
