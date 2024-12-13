@@ -26,13 +26,13 @@ body {
 
 .sidebar h1 {
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
 }
 
 .sidebar a {
-    color: #333;
+    color: #333 !important;
     text-decoration: none;
-}
+    }
 
 .sidebar nav {
     margin-top: 1rem;
@@ -65,15 +65,15 @@ h2 {
     margin-bottom: 1rem;
     border-bottom: 1px solid #333;
     padding-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .entry {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .entry h3 {
-    font-size: 1 rem;
+    font-size: 1rem;
     margin-bottom: 0.3rem;
 }
 
