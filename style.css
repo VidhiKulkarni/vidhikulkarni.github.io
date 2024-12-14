@@ -27,17 +27,17 @@ body {
 
 .sidebar h1 {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .sidebar a {
     color: #333 !important;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     }
 
 .sidebar nav {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .sidebar nav a {
@@ -71,17 +71,12 @@ h2 {
 }
 
 .entry {
-    display: flex;
-    background-color: #fff;
-    color: #333;
-    line-height: 1.6;
+    margin-bottom: 1rem;
 }
 
 .entry h3 {
-    display: flex;
-    background-color: #fff;
-    color: #333;
-    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 .entry p {
