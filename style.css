@@ -22,19 +22,17 @@ body {
     height: 100%;
     text-align: left;
     border-right: 1px solid #fff;
-    font-size: 1.5rem;
 }
 
 .sidebar h1 {
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
 
 .sidebar a {
-    color: #333 !important;
+    color: #333;
     text-decoration: none;
-    font-size: 2rem;
-    }
+}
 
 .sidebar nav {
     margin-top: 1rem;
@@ -67,15 +65,15 @@ h2 {
     margin-bottom: 1rem;
     border-bottom: 1px solid #333;
     padding-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .entry {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .entry h3 {
-    font-size: 1rem;
+    font-size: 1 rem;
     margin-bottom: 0.3rem;
 }
 
@@ -92,6 +90,7 @@ h2 {
 .entry a:hover {
     text-decoration: underline;
 }
+
 
 /* Profile Picture Styling */
 .profile-pic {
