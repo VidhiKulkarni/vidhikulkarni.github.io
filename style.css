@@ -15,44 +15,31 @@ body {
 
 /* Sidebar */
 .sidebar {
-    width: 20%;
+    flex: 0 0 20%;
     padding: 2rem;
     background-color: #fff;
-    position: fixed;
-    height: 100%;
-    text-align: left;
-    border-right: 1px solid #fff;
-}
-
-.sidebar h1 {
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
+    height: 100vh;
+    border-right: 1px solid #ddd;
 }
 
 .sidebar a {
     color: #333;
     text-decoration: none;
-}
-
-.sidebar nav {
-    margin-top: 1rem;
-}
-
-.sidebar nav a {
-    display: inline-block;
-    margin: 0.5rem 0;
+    display: block;
+    margin: 1rem 0;
 }
 
 /* Content Area */
 .content {
-    margin-left: 20%;
+    flex: 1;
     padding: 2rem;
-    width: 80%;
 }
 
+/* Header Section */
 .header {
     display: flex;
     align-items: center;
+    gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
@@ -60,12 +47,21 @@ body {
     font-size: 1rem;
 }
 
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /* Sections */
 h2 {
     margin-bottom: 1rem;
     border-bottom: 1px solid #333;
     padding-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .entry {
@@ -73,31 +69,11 @@ h2 {
 }
 
 .entry h3 {
-    font-size: 1 rem;
+    font-size: 1.1rem;
     margin-bottom: 0.3rem;
 }
 
 .entry p {
     font-size: 1rem;
     color: #555;
-}
-
-.entry a {
-    color: #333;
-    text-decoration: none;
-}
-
-.entry a:hover {
-    text-decoration: underline;
-}
-
-
-/* Profile Picture Styling */
-.profile-pic {
-    width: 150px;  /* Adjust size as needed */
-    height: 150px; /* Make it a perfect square */
-    object-fit: cover; /* Ensures the aspect ratio remains intact */
-    border-radius: 50%; /* Makes the picture circular */
-    margin-bottom: 20px;
-    margin-right: 20px;
 }
