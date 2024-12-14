@@ -20,6 +20,7 @@ body {
     background-color: #fff;
     height: 100vh;
     border-right: 1px solid #ddd;
+    font-size: 1.5rem;
 }
 
 .sidebar a {
@@ -27,6 +28,7 @@ body {
     text-decoration: none;
     display: block;
     margin: 1rem 0;
+    font-size: 1.5rem;
 }
 
 /* Content Area */
